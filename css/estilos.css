@@ -1,0 +1,321 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.fondoEncabezado{
+    width: 100%;
+    background-color: rgb(53,58,64);
+    display: flex;
+    height: 10vh;
+}
+.icono{
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+.navegador{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 5rem;
+}
+.linkPrincipal{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.link{ 
+    color: grey;
+    text-decoration:none;
+    font-size: 0.9rem;
+}
+.link:hover{
+    color: white;
+}
+.linkCompra{
+    color:rgb(41, 167, 68);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.linkCompra:hover{
+    color: rgb(8, 251, 28);
+}
+.principal{
+    width: 100%;
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background:linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url("../assets/imagenes_integrador_front/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.textoPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    text-align: right;
+    margin-right: 5%;
+}
+.titulo1{
+    color: white;
+    margin-bottom: 2%;
+}
+.parrafo1{
+    color:white;
+    width: 67%;
+    font-size: 1rem;
+    margin-bottom: 2%;
+}
+.boton1{
+    color: white;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin-right: 3px;
+    text-decoration:none;
+}
+.boton1:hover{
+    background-color: white;
+    color: black;
+}
+.boton2{
+    background-color: rgb(41, 167, 68);
+    color: white;
+    padding: 6px;
+    border-radius: 2px;
+    text-decoration:none;
+}
+.boton2:hover{
+    background-color: rgb(8, 251, 28);
+    color: white;
+}
+.contenedorSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+.tituloSection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contenedorTarjetaprincipal{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.contenedorTarjeta{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.tarjeta{
+    width:30%;
+    border:1px solid rgb(197, 196, 196);
+    border-radius: 10px;
+}
+.imagenTarjeta{
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px;
+}
+.etiquetas{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.6rem;
+}
+.etiqueta1{
+    padding: 2px;
+    background-color: rgb(255, 238, 0);
+    border-radius: 3px;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+.etiqueta2{
+    padding: 2px;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.etiqueta3{
+    padding: 2px;
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+.etiqueta4{
+    padding: 2px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.contenidoTarjeta{
+    padding: 1rem
+}
+.parrafoTarjeta{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.seccionOrientacion{
+    display: flex;
+    margin-top: 20px;
+}
+.imagenSeccion{
+    width: 50%;
+    border: 1px solid white;
+}
+.fondoSeccion{
+    background-color: rgb(52,58,64);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+}
+.tituloSeccion{
+    margin-bottom: 2%;
+}
+.parrafoSeccion{
+    margin-bottom: 2%;
+    font-size: 0.9rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.introForm{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorCampo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.campo{
+    width: 44%;
+    height: 3vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.contenedorArea{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.areaTexto{
+    width: 57%;
+    height: 10vh;
+}
+.pieForm{
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 46%;
+}
+.botonEnviar{
+    width: 46%;
+    height: 6vh;
+    background-color: rgb(150, 201, 62);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 1.1rem;
+}
+.fondoPiedepagina{
+    background-color: rgb(31,80,110);
+    height: 10vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.linkPie{
+    color: white;
+    width: 6%;
+    text-decoration: none;
+}
+@media screen and (max-width:768px){
+    .fondoEncabezado{
+        flex-direction: column;
+        height: 21vh;
+    }
+    .icono{
+        width: 100%;
+    }
+    .navegador{
+        width: 100%;
+        flex-direction: column;
+    }
+    .contenedorTarjeta{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjeta{
+        width: 80%;
+        height: 80vh;
+        margin-top: 2rem;
+    }
+    .imagenTarjeta{
+        height: 70%;
+    }
+    .seccionOrientacion{
+        flex-direction: column;
+        width: 100%;
+    }
+    .imagenSeccion{
+        width: 100%;
+        height: 50vh;
+    }
+    .fondoSeccion{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .parrafoSeccion{
+        font-size: 0.8rem;
+    }
+    .fondoPiedepagina{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .linkPie{
+        font-size: 0.8rem;
+    }
+}
