@@ -270,6 +270,8 @@
 @media screen and (max-width:768px){
     .fondoEncabezado{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         height: 21vh;
     }
     .icono{
@@ -279,12 +281,22 @@
         width: 100%;
         flex-direction: column;
     }
+    .principal{
+        align-items: center;
+        justify-content: center;
+    }
+    .textoPrincipal{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
     .contenedorTarjeta{
         flex-direction: column;
         align-items: center;
     }
     .tarjeta{
-        width: 80%;
+        width: 85%;
         height: 80vh;
         margin-top: 2rem;
     }
@@ -314,8 +326,14 @@
     .fondoPiedepagina{
         padding-left: 1%;
         padding-right: 1%;
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+
     }
     .linkPie{
+        text-align: center;
         font-size: 0.8rem;
+        width: 30%;
     }
 }
