@@ -305,7 +305,6 @@
     }
     .seccionOrientacion{
         flex-direction: column;
-        width: 100%;
     }
     .imagenSeccion{
         width: 100%;
@@ -329,7 +328,6 @@
         flex-direction: column;
         align-items: center;
         height: 30vh;
-
     }
     .linkPie{
         text-align: center;

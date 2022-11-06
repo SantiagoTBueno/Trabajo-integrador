@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de tickets</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estiloscompra.css">
+</head>
+<body>
+    <header>
+        <div class="fondoEncabezado">
+            <div class="icono">
+                <img src="../assets/imagenes_integrador_front/codoacodo.png" alt="Logo de Codo a Codo" width="100" loading="lazy">
+                <h3>Conf. Bs. As.</h3>
+            </div>
+            <nav class="navegador">
+              <a class="link" href="../index.html"> La Conferencia</a>
+              <a class="link" href="">Los oradores</a>
+              <a class="link" href="">El lugar y la fecha</a>
+              <a class="link" href="">Conviértete en orador</a>
+              <a class="linkCompra" href="#">Comprar Tickets</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="contenedorDescuentos">
+            <div class="contenedorTarjetas">
+                <div class="tarjeta1">
+                    <div class="contenidoTarjeta">
+                        <h3 class="tituloTarjeta">Estudiantes</h3>
+                        <p class="textoTarjeta">Tiene un descuento</p>
+                        <p class="descuentoTarjeta">80%</p>
+                        <p class="aclaracionTarjeta">*presentar documentación</p>
+                    </div>
+                </div>
+                <div class="tarjeta2">
+                    <div class="contenidoTarjeta">
+                        <h3 class="tituloTarjeta">Trainee</h3>
+                        <p class="textoTarjeta">Tiene un descuento</p>
+                        <p class="descuentoTarjeta">50%</p>
+                        <p class="aclaracionTarjeta">*presentar documentación</p>
+                    </div>
+                </div>
+                <div class="tarjeta3">
+                    <div class="contenidoTarjeta">
+                        <h3 class="tituloTarjeta">Junior</h3>
+                        <p class="textoTarjeta">Tiene un descuento</p>
+                        <p class="descuentoTarjeta">15%</p>
+                        <p class="aclaracionTarjeta">*presentar documentación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="contenedorForm">
+            <div class="formulario" >
+                <div class="introForm">
+                    <p>VENTA</p> <h2>VALOR DEL TICKET $200</h2>
+                </div>
+                <form action="" class="inputs">
+                    <div class="contenedorCampo">
+                        <input type="text" placeholder="Nombre" class="campo" id="nombre">
+                        <input type="text" placeholder="Apellido" class="campo" id="apellido">
+                    </div>
+                    <div class="contenedorMail">
+                        <input type="text" placeholder="Correo" class="campoMail" id="mail">
+                    </div>
+                    <div class="contenedorPrecio">
+                        <div class="contenedorCantidad">
+                            <p class="etiqueta">Cantidad</p>
+                            <input type="number" name="Cantidad" placeholder="Cantidad" class="campoPrecio" id="cantidad">
+                        </div>
+                        <div class="contenedorCategoria">
+                            <p class="etiqueta">Categoria</p>
+                            <select name="Categoria" id="cat" class="campoPrecio">
+                                <option value="0">Sin categoria</option>
+                                <option value="1">Estudiante</option>
+                                <option value="2">Trainee</option>
+                                <option value="3">Junior</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contenedorTotal" role="alert">
+                        Total a pagar $ <span id="totalPago"></span>
+                    </div>
+                    <div class="botones">
+                        <div class="botonB">
+                            <button type="reset" class="botonBorrar" id="bBorrar">Borrar</button>
+                        </div>
+                        <div class="botonR">
+                            <button type="button" class="botonResumen" id="bResumen">Resumen</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="fondoPiedepagina">
+        <a class="linkPie" href=""> Preguntas    frecuentes</a>
+        <a class="linkPie" href="">Contáctanos</a>
+        <a class="linkPie" href="">Prensa</a>
+        <a class="linkPie" href="">Conferencia</a>
+        <a class="linkPie" href="">Términos y condiciones</a>
+        <a class="linkPie" href="">Privacidad</a>
+        <a class="linkPie" href="">Estudiantes</a>
+    </footer>
+    <script src="../js/scriptTicket.js"></script>
+</body>
+</html>

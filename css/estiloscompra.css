@@ -1,0 +1,278 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.fondoEncabezado{
+    width: 100%;
+    background-color: rgb(53,58,64);
+    display: flex;
+    height: 10vh;
+}
+.icono{
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+.navegador{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 5rem;
+}
+.linkPrincipal{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.link{ 
+    color: grey;
+    text-decoration:none;
+    font-size: 0.9rem;
+}
+.link:hover{
+    color: white;
+}
+.linkCompra{
+    color:rgb(41, 167, 68);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.linkCompra:hover{
+    color: rgb(8, 251, 28);
+}
+.contenedorDescuentos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contenedorTarjetas{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tarjeta1{
+    width: 30%;
+    height: 30vh;
+    border: 2px solid rgb(0, 123, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tarjeta2{
+    width: 30%;
+    height: 30vh;
+    border: 2px solid rgb(23, 162, 184);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tarjeta3{
+    width: 30%;
+    height: 30vh;
+    border: 2px solid rgb(245, 197, 51);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenidoTarjeta{
+    font-size: 0.8rem;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tituloTarjeta{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.textoTarjeta{
+    font-size: 1.1rem;
+}
+.descuentoTarjeta{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.aclaracionTarjeta{
+    font-size: 1rem;
+    color: gray;
+}
+.contenedorForm{
+    width: 100%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introForm{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorCampo{
+    width: 63.2%;
+    display: flex;
+    justify-content: center;
+}
+.campo{
+    width: 44%;
+    height: 5vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contenedorMail{
+    width: 57%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campoMail{
+    width: 100%;
+    height: 5vh;
+}
+.contenedorPrecio{
+    width: 57.6%;
+    display:flex;
+    justify-content: space-between;
+}
+.contenedorCantidad{
+    width: 48.5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedorCategoria{
+    width: 48.5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.etiqueta{
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.campoPrecio{
+    width: 97%;
+    height: 5vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contenedorTotal{
+    width: 57.3%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    height: 5vh;
+    background-color: rgb(204, 229, 255);
+    color: blue;
+    border-radius: 5px;
+}
+.botones{
+    width: 57.3%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.botonB{
+    width: 49%;
+}
+.botonBorrar{
+    width: 100%;
+    height: 5vh;
+    color: white;
+    background-color: rgb(150, 201, 62);
+    border: 1px solid white;
+}
+.botonR{
+    width: 49%;
+}
+.botonResumen{
+    width: 100%;
+    height: 5vh;
+    color: white;
+    background-color: rgb(150, 201, 62);
+    border: 1px solid white;
+}
+.fondoPiedepagina{
+    background-color: rgb(31,80,110);
+    height: 10vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.linkPie{
+    color: white;
+    width: 6%;
+    text-decoration: none;
+}
+.invalido{
+    background-color: rgba(230, 11, 11, 0.422);
+}
+@media screen and (max-width:768px){
+    .fondoEncabezado{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+    }
+    .icono{
+        width: 100%;
+    }
+    .navegador{
+        width: 100%;
+        flex-direction: column;
+    }
+    .contenedorTarjetas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjeta1{
+        width: 85%;
+        height: 50vh;
+        margin-top: 2rem;
+    }
+    .tarjeta2{
+        width: 85%;
+        height: 50vh;
+        margin-top: 2rem;
+    }
+    .tarjeta3{
+        width: 85%;
+        height: 50vh;
+        margin-top: 2rem;
+    }
+    .fondoPiedepagina{
+        padding-left: 1%;
+        padding-right: 1%;
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+    }
+    .linkPie{
+        text-align: center;
+        font-size: 0.8rem;
+        width: 30%;
+    }
+}
